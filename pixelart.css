@@ -1,0 +1,168 @@
+
+p{
+	 font-family: 'Calibri', sans-serif;
+}
+
+.proyecto3 {
+	display: inline-block;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+
+
+/* JUEGO */
+
+#container {
+    width: 400px;
+    height: 400px   ;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#container .cell {
+    float: left;
+    background: #ecf0f1;
+    outline: 1px solid #fff;
+    cursor: pointer;
+}
+
+#reset{
+    width:105px;
+    transform: translate(170%, -50px);
+ 
+}
+#toggle-border{
+    width:105px;
+    transform: translate(170%, -50px);
+}
+#container .cell.no-border {
+    outline: none;
+}
+
+.actions {
+    width: 400px;
+    margin: 10px auto;
+
+}
+
+.btn {
+    font-size: 30px;
+    color: #2c3e50;
+    border: 1px solid black;
+    background: #ffffff;
+    width: 48px;
+    height: 48px;
+    border-radius: 2px;
+    float: left;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #000000;
+    color: orange;
+    border-color: orange;
+}
+
+.acciones__botones {
+    width: 180px;
+    float: left;
+}
+
+#color-pick {
+    height: auto;
+    width: 220px;
+    float: left;
+     position: absolute;
+    top:0;
+    left:0;
+    transform-origin:0% 100%;
+    transform: rotate(90deg);
+}
+
+#color-pick>div {
+    float: left;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+ 
+    border-radius: 24px;
+    margin: 2px;
+    border: 1px solid #f1f1f1;
+}
+
+#color-pick>div.select {
+    border: 1px solid #000;
+}
+
+.grilla {
+    border: 1px solid black;
+    border-radius: 2px;
+    overflow: auto;
+    padding: 0 14px;
+    margin-bottom: 10px;
+   width: 37%;
+
+}
+
+.grilla p {
+    font-size: 10px;
+    text-transform: uppercase;
+   
+    float: left;
+    
+}
+
+.grilla input {
+    float: left;
+    width: 65px;
+    height: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+
+.grilla .btn {
+    border: 0;
+    width: 16px;
+    height: 16px;
+    font-size: 24px;
+    float: right;
+}
+
+.grilla .btn:hover {
+    background: #ffffff;
+    color: #3498db;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.ion-android-arrow-forward:hover{
+    color: orange;
+}
+
+.jscolor
+{
+    position: relative;
+    bottom: 453px;
+    left: 106px;
+}
+#color{
+    border:  solid black 1px;
+    width: 70%;
+    height: 25px;
+    border-radius: 2em;
+    padding: 4px ;
+    padding-bottom : 3px;
+}
